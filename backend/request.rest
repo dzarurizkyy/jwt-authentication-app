@@ -1,0 +1,28 @@
+GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsIm5hbWUiOiJEemFydSBSaXpreSBGYXRoYW4gRm9ydHVuYSIsImVtYWlsIjoiZHphcnVyaXpreWJ1c2luZXNzMkBnbWFpbC5jb20iLCJpYXQiOjE3MDAwNTU1ODksImV4cCI6MTcwMDA1NTYwOX0.Z6YM6kz2FcUan2hpdNuJHnM84hSA1UXrIJottvhuK4U
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+  "name": "Dzaru Rizky Fathan Fortuna",
+  "email": "dzarurizkybusiness2@gmail.com",
+  "password": "dzaru123",
+  "confirmPassword": "dzaru123"
+}
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+ "email": "dzarurizkybusiness2@gmail.com",
+ "password": "dzaru123" 
+}
+
+###
+GET http://localhost:5000/token
+
+###
+DELETE http://localhost:5000/logout
