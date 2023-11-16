@@ -1,6 +1,5 @@
 GET http://localhost:5000/users
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsIm5hbWUiOiJEemFydSBSaXpreSBGYXRoYW4gRm9ydHVuYSIsImVtYWlsIjoiZHphcnVyaXpreWJ1c2luZXNzMkBnbWFpbC5jb20iLCJpYXQiOjE3MDAwNTU1ODksImV4cCI6MTcwMDA1NTYwOX0.Z6YM6kz2FcUan2hpdNuJHnM84hSA1UXrIJottvhuK4U
-
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsIm5hbWUiOiJEemFydSBSaXpreSBGYXRoYW4gRm9ydHVuYSIsImVtYWlsIjoiZHphcnVyaXpreWJ1c2luZXNzMkBnbWFpbC5jb20iLCJpYXQiOjE3MDAwNjU0NjEsImV4cCI6MTcwMDA2NTQ4MX0.ehHFuvFHGg7T4Gva10Gue1BgNcDr7et4mveRzeFGCK0
 ###
 POST http://localhost:5000/users
 Content-Type: application/json
@@ -17,7 +16,7 @@ POST http://localhost:5000/login
 Content-Type: application/json
 
 {
- "email": "dzarurizkybusiness2@gmail.com",
+ "email": "dzarurizkybusiness@gmail.com",
  "password": "dzaru123" 
 }
 
